@@ -51,7 +51,7 @@ public class LogIn {
     public void registerUser   (String username, String password, String role) {
         User user = new User(username, password, role);
         users.add(user);
-        System.out.println("User    Registered successfully!");
+        System.out.println("User Registered successfully!");
     }
 
     public User loginUser(String username, String password) {
